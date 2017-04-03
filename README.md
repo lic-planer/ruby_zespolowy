@@ -1,24 +1,16 @@
-# README
+# Aleksandra Onych, Julian Podleśny, Arkadiusz Półgęsek (egzamin)
+| Ruby | Rails | Baza danych | Framework | Gemy |
+| ------ | ------ | ------ | ------ | ------ |
+| 2.3.3 | 5.0.2 | SQLite, PostgreSQL | Bootstrap | simple_form, ransack |
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### [ ] [Link do aplikacji](https://shrouded-ocean-49748.herokuapp.com/) 
 
-Things you may want to cover:
+# Temat: Filmy animowane
+Aplikacja zawiera informację o filmach animowanych (tytuł, kraj produkcji oraz rok premiery). Użytkownik po porzednim zalogowaniu się, może przeglądać,
+edytować, dodawać oraz usuwać filmy. Użytkownik może również edytować swoje konto - zmienić email lub hasło.
+Na stronie znajduje się wyszukiwarka, dzięki której można znaleźć filmy po tytule 
+(np. wpisując "wyspa" pojawią się dwa filmy) oraz po kraju produkcji. Po kliknięciu na nazwę kolumny tabeli, rekordy w niej zawarte zostaną posortowane.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Gemy
+- simple_form - proste dodawanie formularzy
+- ransack - wyszukiwanie po napisach i sortowanie danych w tabeli
