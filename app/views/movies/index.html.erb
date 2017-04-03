@@ -1,0 +1,55 @@
+<%- model_class = Movie -%>
+<div class="page-header">
+  <h1>Baza filmów animowanych</h1>
+</div>
+<% if user_signed_in? %>
+  <%= search_form_for @search do |f| %>
+    <div class="field">
+      <%= f.label :title_cont, "Wyszukaj po tytule" %>
+      <%= f.text_field :title_cont %>
+      <%= f.label :country_cont, "Wyszukaj po kraju" %>
+      <%= f.text_field :country_cont %>
+    </div>
+    <div class="actions"><%= f.submit "Szukaj" %></div>
+  <% end %>
+
+<div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th><%= model_class.human_attribute_name(:lp) %></th>
+        <th><%= sort_link @search, :title, "Tytuł "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
+        <th><%= sort_link @search, :country, " Kraj produkcji "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
+        <th><%= sort_link @search, :year, " Rok premiery "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
+        <th><%=t '.actions', default: t("helpers.akcje") %></th>
+      </tr>
+    </thead>
+    <tbody>
+     <% @movies.each_with_index do |movie, i| %>
+        <tr>
+          <td><%= (i+1) %></td>
+  		  <td><%= movie.title %></td>
+            <td><%= movie.country %></td>
+            <td><%= movie.year %></td>
+          <td>
+            <%= link_to movie_path(movie), class: 'btn btn-xs', title: "#{ t('.show', default: t('helpers.links.show')) }" do %>
+              <%= glyph 'info-sign' %>
+            <%- end -%>
+            <%= link_to edit_movie_path(movie), class: 'btn btn-xs', title: "#{ t('.edit', default: t('helpers.links.edit')) }" do %>
+              <%= glyph 'pencil' %>
+            <%- end -%>
+            <%= link_to movie_path(movie), method: :delete, data: { confirm: t('.confirm', default: t("helpers.links.confirm", default: 'Are you sure?')) }, class: 'btn btn-xs', title: "#{ t('.destroy', default: t('helpers.links.destroy')) }" do %>
+              <%= glyph 'remove' %>
+            <%- end -%>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <%= link_to t('.new', default: t("helpers.links.Dodaj")),
+              new_movie_path,
+              class: 'btn btn-primary' %>
+
+<% else %>
+  <p class="lead">Aby zobaczyć filmy musisz być zalogowany!</p>
+<% end %>
