@@ -14,3 +14,12 @@ File.open("db/movies.txt", "r") do |f|
     Movie.create!(:title => title, :country => country, :year => year)
   end
 end
+
+Director.destroy_all
+
+File.open("db/directors.txt", "r") do |f|
+  f.each_line do |line|
+    name, last_name, date_birth = line.chomp.split(";")
+    Director.create!(:name => name, :last_name => last_name, :date_birth => date_birth)
+  end
+end

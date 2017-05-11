@@ -21,6 +21,7 @@
         <th><%= sort_link @search, :title, "Tytuł "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
         <th><%= sort_link @search, :country, " Kraj produkcji "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
         <th><%= sort_link @search, :year, " Rok premiery "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
+        <th><%= model_class.human_attribute_name(:plakat) %></th>
         <th><%=t '.actions', default: t("helpers.akcje") %></th>
       </tr>
     </thead>
@@ -28,9 +29,10 @@
      <% @movies.each_with_index do |movie, i| %>
         <tr>
           <td><%= (i+1) %></td>
-  		  <td><%= movie.title %></td>
-            <td><%= movie.country %></td>
-            <td><%= movie.year %></td>
+  		    <td><%= movie.title %></td>
+          <td><%= movie.country %></td>
+          <td><%= movie.year %></td>
+          <td><%= movie.image %></td>
           <td>
             <%= link_to movie_path(movie), class: 'btn btn-xs', title: "#{ t('.show', default: t('helpers.links.show')) }" do %>
               <%= glyph 'info-sign' %>

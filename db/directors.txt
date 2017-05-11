@@ -1,0 +1,17 @@
+Tim;Miller;28.02.1970
+Bill;Condon;22.10.1955
+Chris;Columbus;10.09.1958
+James;Mangold;16.12.1963
+Tom;Hooper;1.10.1972
+Sharon;Maguire;	28.11.1960
+Sam;Mendes;1.08.1965
+Richard;Curtis;8.11.1956
+Todd;Phillips;20.12.1970
+David;Fincher;28.08.1962
+Quentin;Tarantino;27.03.1963
+Juliusz;Machulski;10.03.1955
+Marek;Koterski;3.06.1942
+Olaf;Lubaszenko;6.12.1968
+Sylwester;Chęciński;21.05.1930
+Francis;Lawrence;26.03.1971
+James;Wan;27.02.1977
