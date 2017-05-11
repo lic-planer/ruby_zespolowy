@@ -1,0 +1,20 @@
+Deadpool;USA;2016
+Piękna i Bestia;USA;2017
+Harry Potter i Kamień Filozoficzny;USA;2001
+Harry Potter i Komnata Tajemnic;USA;2002
+Wolverine;USA;2013
+Jak zostać królem;Australia;2010
+Dziennik Bridget Jones;Wielka Brytania;2001
+Skyfall;Wielka Brytania;2012
+To właśnie miłość;Wielka Brytania;2003
+Kac Vegas;Niemcy;2009
+Podziemny krąg;Niemcy;1999
+Bękarty wojny;Niemcy;2009
+Seksmisja;Polska;1983
+Dzień świra;Polska;2002
+Kiler;Polska;1997
+Kiler-ów 2-óch;Polska;1999
+Chłopaki nie płaczą;Polska;2000
+Sami swoi;Polska;1967
+Jestem legendą;Australia;2007
+Piła;Australia;2004

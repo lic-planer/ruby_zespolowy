@@ -1,0 +1,12 @@
+	<div class="jumbotron">
+        <h1>Baza filmów</h1>
+				<% if user_signed_in? %>
+					<p class="lead">Logowanie przebiegło pomyślnie. Masz teraz dostęp do bazy filmów.</p>
+					<p><a class="btn btn-primary btn-lg" href="/movies" role="button">Zobacz filmy</a></p>
+					<p><a class="btn btn-primary btn-lg" href="/directors" role="button">Zobacz reżyserów</a></p>
+				<% else %>
+					<p class="lead">Aby zobaczyć bazę filmów musisz być zalogowany.</p>
+					<p><a class="btn btn-lg btn-link" href="/users/sign_up" role="button">Nie masz konta? Zarejestruj się!</a></p>
+				<% end %>
+
+    </div> <!-- /container -->

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, device-scale=1.0">
+    <title>Filmy</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  <p class="navbar-text pull-right">
+    <%= render 'layouts/navbar' %>
+
+	<div class="main-page-content <%= controller.controller_name %>">
+    <% flash.each do |message_type, message| %>
+        <div class="alert alert-<%= message_type %>"><%= message %></div>
+    <% end %>
+		<%= yield %>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<%- model_class = Movie -%>
+<div class="page-header">
+  <h1><%=t '.title', default: model_class.model_name.human.titleize %></h1>
+</div>
+
+<div class="fieldset">
+  <dl>
+      <dt class="label label-default"><%= model_class.human_attribute_name(:tytuł) %></dt>
+      <dd><pre class="prettyprint"><%= @movie.title %></pre></dd>
+      <dt class="label label-default"><%= model_class.human_attribute_name(:kraj_produkcji) %></dt>
+      <dd><pre class="prettyprint"><%= @movie.country %></pre></dd>
+      <dt class="label label-default"><%= model_class.human_attribute_name(:rok_premiery) %></dt>
+      <dd><pre class="prettyprint"><%= @movie.year %></pre></dd>
+      <dt class="label label-default"><%= model_class.human_attribute_name(:plakat) %></dt>
+      <dd><pre class="prettyprint"><%= @movie.image %></pre></dd>
+  </dl>
+</div>
+
+<div class="form-group">
+  <%= link_to t('.back', default: t("Wróć")),
+              movies_path, class: 'btn btn-default'  %>
+  <%= link_to t('.edit', default: t("Edytuj")),
+              edit_movie_path(@movie), class: 'btn btn-default' %>
+  <%= link_to t('.destroy', default: t("Usuń")),
+              movie_path(@movie),
+              method: 'delete',
+              data: { confirm: t('.confirm', default: 'Jesteś pewien, że chcesz usunąć ten film?') },
+              class: 'btn btn-danger' %>
+</div>

@@ -1,0 +1,20 @@
+akcja
+animacja
+biograficzny
+dokumentalny
+dramat
+erotyczny
+fantasy
+historyczny
+horror
+komedia
+komedia romantyczna
+kryminał
+melodramat
+musical
+przygodowy
+romans
+sci-fi
+sportowy
+thriller
+western
