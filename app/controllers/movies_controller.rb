@@ -5,6 +5,7 @@ class MoviesController < ApplicationController
   def index
     @search = Movie.search(params[:q])
     @movies = @search.result.page(params[:page]).per(9)
+    @types = Type.all
   end
 
   def show
