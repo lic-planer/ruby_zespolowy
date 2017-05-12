@@ -43,7 +43,6 @@
 </div>
 
 <div class="chartkick">
-  <%= javascript_include_tag "https://www.gstatic.com/charts/loader.js" %>
-  <%= geo_chart Movie.group(:country).count, width: "800px", height: "500px" %>
+  <%= pie_chart Movie.group(:country).count %>
   <h4>Diagram przedstawiający ilość filmów wyprodukowanych w danym kraju</h4>
 </div>

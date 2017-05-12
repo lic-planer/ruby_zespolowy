@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170512084531) do
+=======
+ActiveRecord::Schema.define(version: 20170511203520) do
+>>>>>>> refs/remotes/origin/master
 
   create_table "directors", force: :cascade do |t|
     t.string   "name"
