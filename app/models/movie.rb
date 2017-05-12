@@ -9,5 +9,6 @@ class Movie < ApplicationRecord
 	validates_format_of :image, :with => /(http|https):\/\/[\S]+(\.jpg|\.png)+/,
   	:message => "Adres musi odnosić się do obrazka .jpg lub .png"
 
+	ratyrate_rateable "rating"
 
 end
