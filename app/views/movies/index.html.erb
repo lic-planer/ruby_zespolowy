@@ -1,20 +1,24 @@
 <%- model_class = Movie -%>
-<div class="page-header">
-  <h1>Wszystkie filmy</h1>
-</div>
 
-<div class="container">
+<div class="container" style="margin-top: 100px;">
   <div class="album text-muted">
 
     <div class="top-panel">
 
-    <%= link_to "Dodaj film",new_movie_path,class: 'btn btn-primary search_btn' %>
+    <div class="row">
 
-    <div class="movie_search">
-    <% if user_signed_in? %>
-    <%= search_form_for @search do |f| %><%= f.text_field :title_cont, placeholder: "Wyszukaj po tytule" %> <%= f.text_field :country_cont, placeholder: "Wyszukaj po kraju" %>
-    <%= f.submit "Szukaj" %>
-    <% end %>
+          <div class="col-sm-6">
+          <% if user_signed_in? %>
+                    <%= search_form_for @search do |f| %><%= f.text_field :title_cont, class: "form-control input-lg search", placeholder: "Wyszukaj po tytule" %>
+                    <button type="submit" style="margin-right: 10px;">Szukaj</button>
+                    <%= select_tag "types", options_from_collection_for_select(@types, "id", "name"), include_blank: "Wszystkie" %>
+          <% end %>
+          </div>
+
+          <div class="col-sm-6" style="text-align: right;">
+            <%= link_to "Dodaj film +",new_movie_path,class: 'btn btn-primary btn-lg addnew_btn' %>
+          </div>
+
     </div>
 
     </div>
