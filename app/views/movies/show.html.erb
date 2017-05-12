@@ -17,6 +17,8 @@
       <dd><pre class="prettyprint"><%=@movie.director.name %> <%= @movie.director.last_name %></pre></dd>
       <dt class="label label-default"><%= model_class.human_attribute_name(:gatunek) %></dt>
       <dd><pre class="prettyprint"><%= @movie.type.name %></pre></dd>
+      <dt class="label label-default"><%= model_class.human_attribute_name(:ocena) %></dt>
+      <dd><pre class="prettyprint"><%= rating_for @movie, 'rating', enable_half: true %></pre></dd>
   </dl>
 </div>
 

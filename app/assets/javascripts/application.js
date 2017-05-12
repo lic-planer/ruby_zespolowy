@@ -12,7 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
-//= require Chart.bundle
+//= require jsapi
 //= require chartkick
+//= require jquery.raty
+//= require ratyrate
