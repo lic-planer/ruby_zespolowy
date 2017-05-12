@@ -1,11 +1,97 @@
-// Place all the styles related to the movies controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-.chartkick {
-  padding: 50px;
-}
-
 h4 {
   text-align: center;
+}
+
+.page-header{
+  max-width: 1170px;
+  margin: auto;
+
+  h1{
+    margin-top: 100px;
+  }
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.album {
+  min-height: 50em; /* Can be removed; just added for demo purposes */
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #fff;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75em;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text{
+  margin: 0;
+  max-width: 338px;
+}
+
+.top-panel{
+  text-align: left;
+  padding: 10px;
+
+}
+
+.movie_search, .search_btn{
+  display: inline;
+}
+
+.movie-title a{
+  font-size: 2em;
+  font-weight: bold;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  line-height: 1.2em;
+  padding: 20%;
+}
+
+.movie-title a:hover{
+  background: transparent;
+  text-decoration: none;
+}
+
+figure { 
+  display: block; 
+  position: relative; 
+  overflow: hidden; 
+  padding: 0;
+  margin: 0;
+}
+
+figcaption { 
+  position: absolute; 
+  margin: auto;
+  left: 0; right: 0; top: 0; bottom: 0;
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+}
+
+figcaption { 
+  width: 330px;
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  bottom: 0;
 }
