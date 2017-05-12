@@ -42,6 +42,8 @@
 <% end %>
 </div>
 
+<%= paginate @movies %>
+
 <div class="chartkick">
   <%= pie_chart Movie.group(:country).count %>
   <h4>Diagram przedstawiający ilość filmów wyprodukowanych w danym kraju</h4>
