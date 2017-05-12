@@ -71,3 +71,7 @@ gem 'devise', '~> 4.2'
 gem 'simple_form', '~> 3.4'
 gem 'bcrypt', '~> 3.1.11'
 gem 'ransack', '~> 1.8.2'
+gem "chartkick"
+gem "mini_magick"
+gem 'paperclip', '~> 5.1'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'

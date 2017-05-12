@@ -26,7 +26,7 @@
   <div class="form-group">
     <%= f.label :reżyser, class: 'control-label col-md-2' %>
     <div class="col-md-10">
-      <%= f.select :director_id, options_for_select(Director.all.map{|f|[f.last_name, f.id]}), class: 'text_field form-control' %>
+      <%= f.select :director_id, options_for_select(Director.all.map{|f|["#{f.name} #{f.last_name}", f.id]}), class: 'text_field form-control' %>
     </div>
   </div>
   <div class="form-group">
