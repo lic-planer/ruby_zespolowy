@@ -22,6 +22,8 @@
         <th><%= sort_link @search, :country, " Kraj produkcji "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
         <th><%= sort_link @search, :year, " Rok premiery "%><span class="glyphicon glyphicon-sort" aria-hidden="true"></th>
         <th><%= model_class.human_attribute_name(:plakat) %></th>
+        <th><%= model_class.human_attribute_name(:reżyser) %></th>
+        <th><%= model_class.human_attribute_name(:gatunek) %></th>
         <th><%=t '.actions', default: t("helpers.akcje") %></th>
       </tr>
     </thead>
@@ -33,6 +35,9 @@
           <td><%= movie.country %></td>
           <td><%= movie.year %></td>
           <td><%= movie.image %></td>
+          <td><%= movie.director.present? ? movie.director.name : " " %> <%= movie.director.present? ? movie.director.last_name : " " %></td>
+          <td><%= movie.type.present? ? movie.type.name : " " %></td>
+
           <td>
             <%= link_to movie_path(movie), class: 'btn btn-xs', title: "#{ t('.show', default: t('helpers.links.show')) }" do %>
               <%= glyph 'info-sign' %>

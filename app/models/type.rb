@@ -1,5 +1,7 @@
 class Type < ApplicationRecord
 
+  has_many :movies
+
   validates :name,
 		presence: true
 
