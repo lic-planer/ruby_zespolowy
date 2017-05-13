@@ -74,3 +74,4 @@ gem 'ransack', '~> 1.8.2'
 gem "chartkick"
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'ratyrate'
+gem 'youtube_rails'

@@ -35,6 +35,12 @@
       <%= f.select :type_id, options_for_select(Type.all.map{|f|[f.name, f.id]}), class: 'text_field form-control' %>
     </div>
   </div>
+  <div class="form-group">
+    <%= f.label :trailer, class: 'control-label col-md-2' %>
+    <div class="col-md-10">
+      <%= f.text_field :trailer, class: 'text_field form-control' %>
+    </div>
+  </div>
 
   <div class="form-group">
     <div class='col-md-offset-2 col-md-10'>

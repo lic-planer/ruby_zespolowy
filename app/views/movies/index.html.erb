@@ -12,7 +12,7 @@
          <%= search_form_for @search do |f| %>
 
            <%= f.text_field :title_cont, class: "form-control input-lg search", placeholder: "Wyszukaj po tytule" %>
-           <%= f.select :type_id_eq, options_from_collection_for_select(Type.all, "id", "name", @search.type_id_eq) %>
+           <%= f.select :type_id_eq, options_from_collection_for_select(Type.all, "id", "name", @search.type_id_eq), :include_blank => 'wszystkie' %>
 
            <button type="submit" style="margin-right: 10px;">Szukaj</button>
          <% end %>
