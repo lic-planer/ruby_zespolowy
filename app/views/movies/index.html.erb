@@ -7,17 +7,20 @@
 
     <div class="row">
 
-          <div class="col-md-6 col-lg-6 col-xs-12">
-          <% if user_signed_in? %>
-                    <%= search_form_for @search do |f| %><%= f.text_field :title_cont, class: "form-control input-lg search", placeholder: "Wyszukaj po tytule" %>
-                    <button type="submit" style="margin-right: 10px;">Szukaj</button>
-                    <%= select_tag "types", options_from_collection_for_select(@types, "id", "name"), include_blank: "Wszystkie" %>
-          <% end %>
-          </div>
+      <div class="col-md-6 col-lg-6 col-xs-12">
+       <% if user_signed_in? %>
+         <%= search_form_for @search do |f| %>
 
-          <div class="col-sm-6" style="text-align: right;">
-            <%= link_to "Dodaj film +",new_movie_path,class: 'btn btn-primary btn-lg addnew_btn' %>
-          </div>
+           <%= f.text_field :title_cont, class: "form-control input-lg search", placeholder: "Wyszukaj po tytule" %>
+           <%= f.select :type_id_eq, options_from_collection_for_select(Type.all, "id", "name", @search.type_id_eq) %>
+
+           <button type="submit" style="margin-right: 10px;">Szukaj</button>
+         <% end %>
+     </div>
+
+      <div class="col-sm-6" style="text-align: right;">
+        <%= link_to "Dodaj film +",new_movie_path,class: 'btn btn-primary btn-lg addnew_btn' %>
+      </div>
 
     </div>
 
