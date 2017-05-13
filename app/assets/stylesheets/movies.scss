@@ -17,14 +17,11 @@ h4 {
 }
 
 .album {
-  min-height: 50em; /* Can be removed; just added for demo purposes */
   background-color: #fff;
   border-radius: 8px;
 }
 
 .card {
-  float: left;
-  width: 33.333%;
   padding: .75em;
   margin-bottom: 2rem;
   border: 0;
@@ -45,10 +42,6 @@ h4 {
   display: block;
   width: 100%;
   position: relative;
-}
-
-.top-panel a{
-  margin-right: 10px;
 }
 
 .top-panel .search{

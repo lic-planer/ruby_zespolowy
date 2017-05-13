@@ -2,9 +2,9 @@
   <h1></h1>
 </div>
 <div class="container">
-  <div class="chartkick">
+  <div class="chartkick" style="text-align: center;">
     <%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
-    <%= geo_chart Movie.group(:country).count %>
-    <h4>Diagram przedstawiający ilość filmów wyprodukowanych w danym kraju</h4>
+    <%= geo_chart Movie.group(:country).count, library: {backgroundColor: "#dedede"} %>
+    <div style="font-size: 14px; margin-top: 20px;">Diagram przedstawiający ilość filmów wyprodukowanych w danym kraju</div>
   </div>
 </div>

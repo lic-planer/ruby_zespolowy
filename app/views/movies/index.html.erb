@@ -7,7 +7,7 @@
 
     <div class="row">
 
-          <div class="col-sm-6">
+          <div class="col-md-6 col-lg-6 col-xs-12">
           <% if user_signed_in? %>
                     <%= search_form_for @search do |f| %><%= f.text_field :title_cont, class: "form-control input-lg search", placeholder: "Wyszukaj po tytule" %>
                     <button type="submit" style="margin-right: 10px;">Szukaj</button>
@@ -27,11 +27,12 @@
 
       <% @movies.each_with_index do |movie, i| %>
 
-        <div class="card">
+        <div class="card col-md-6 col-lg-4 col-xs-12">
         <figure>
           <img src="<%= movie.image %>" height="500px" width="330px" alt="poster">
           <figcaption>
                 <span class="movie-title"><%= link_to movie_path(movie) do %><%= movie.title %><%- end -%></span>
+                <%= rating_for movie, 'rating', enable_half: true %>
           </figcaption>
           </figure>
         </div>
