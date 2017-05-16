@@ -75,3 +75,5 @@ gem "chartkick"
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'ratyrate'
 gem 'youtube_rails'
+gem 'carrierwave'
+gem 'cloudinary'
