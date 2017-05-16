@@ -77,28 +77,28 @@ h4 {
   text-decoration: none;
 }
 
-figure { 
-  display: block; 
-  position: relative; 
-  overflow: hidden; 
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden;
   padding: 0;
   margin: 0;
 }
 
-figcaption { 
-  position: absolute; 
+figcaption {
+  position: absolute;
   margin: auto;
   left: 0; right: 0; top: 0; bottom: 0;
-  background: rgba(0,0,0,0.75); 
-  color: white; 
-  padding: 10px 20px; 
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
 }
 
-figcaption { 
+figcaption {
   width: 330px;
-  background: rgba(0,0,0,0.75); 
-  color: white; 
-  padding: 10px 20px; 
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   -moz-transition:    all 0.4s ease;
@@ -108,4 +108,9 @@ figcaption {
 figure:hover figcaption {
   opacity: 1;
   bottom: 0;
+}
+
+.star {
+  position: absolute;
+  z-index: 9999;
 }
