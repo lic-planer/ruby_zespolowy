@@ -1,7 +1,7 @@
 # Aleksandra Onych, Julian Podleśny, Arkadiusz Półgęsek (egzamin)
 | Ruby | Rails | Baza danych | Framework | Gemy |
 | ------ | ------ | ------ | ------ | ------ |
-| 2.3.3 | 5.0.2 | SQLite, PostgreSQL | Bootstrap | simple_form, ransack |
+| 2.3.3 | 5.0.2 | SQLite, PostgreSQL | Bootstrap | simple_form, ransack, chartkick, kaminari, ratyrate, youtube_rails |
 
 ### [ ] [Link do aplikacji](https://shrouded-ocean-49748.herokuapp.com/) 
 
