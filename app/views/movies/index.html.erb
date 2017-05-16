@@ -31,7 +31,7 @@
           <img src="<%= movie.image %>" height="500px" width="330px" alt="poster">
           <figcaption>
                 <span class="movie-title"><%= link_to movie_path(movie) do %><%= movie.title %><%- end -%></span>
-                <div class="rate_main"><%= rating_for movie, 'rating', enable_half: true %></div>
+                <div class="rate_main"><%= rating_for movie, 'rating', star_path: '/images/ratyrate', enable_half: true %></div>
           </figcaption>
           </figure>
         </div>
