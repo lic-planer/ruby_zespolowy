@@ -19,6 +19,7 @@ h4 {
 .album {
   background-color: #fff;
   border-radius: 8px;
+  margin-top: 50px;
 }
 
 .card {
@@ -41,7 +42,6 @@ h4 {
   padding: 15px;
   display: block;
   width: 100%;
-  position: relative;
 }
 
 .top-panel .search{
@@ -58,10 +58,6 @@ h4 {
   display: block;
 }
 
-#movie_search{
-  display: flex;
-}
-
 
 .movie-title a{
   font-size: 2em;
@@ -70,6 +66,8 @@ h4 {
   top: 0; left: 0; bottom: 0; right: 0;
   line-height: 1.2em;
   padding: 20%;
+  color: #fff;
+  z-index: 9990;
 }
 
 .movie-title a:hover{
@@ -110,7 +108,25 @@ figure:hover figcaption {
   bottom: 0;
 }
 
-.star {
+.rate_main .star {
   position: absolute;
-  z-index: 9999;
+  z-index: 9990;
+  left: 0; right: 0; bottom: 40px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+#navbar{
+  margin-top: 20px;
+  color: #fff;
+  float: right;
+}
+
+.navbar-link:hover{
+  background-color: transparent;
+}
+
+.navbar-brand{
+  font-size: 1em;
+  padding: 20px 15px;
 }
