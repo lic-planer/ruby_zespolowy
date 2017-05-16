@@ -18,10 +18,6 @@
          <% end %>
      </div>
 
-      <div class="col-sm-6" style="text-align: right;">
-        <%= link_to "Dodaj film +",new_movie_path,class: 'btn btn-primary btn-lg addnew_btn' %>
-      </div>
-
     </div>
 
     </div>
@@ -30,12 +26,12 @@
 
       <% @movies.each_with_index do |movie, i| %>
 
-        <div class="card col-md-6 col-lg-4 col-xs-12">
+        <div class="card col-md-6 col-lg-4 col-sm-6 col-xs-12">
         <figure>
           <img src="<%= movie.image %>" height="500px" width="330px" alt="poster">
           <figcaption>
                 <span class="movie-title"><%= link_to movie_path(movie) do %><%= movie.title %><%- end -%></span>
-                <div class="rate_main"><%= rating_for movie, 'rating', enable_half: true %></div>
+                <div class="rate_main"><%= rating_for movie, 'rating', star_path: '/images/ratyrate', enable_half: true %></div>
           </figcaption>
           </figure>
         </div>
@@ -43,6 +39,11 @@
       <% end %>
 
     </div>
+
+    <div class="col-12" style="text-align: center;">
+      <%= link_to "Dodaj film +",new_movie_path,class: 'btn btn-primary btn-lg addnew_btn' %>
+    </div>
+
 </div>
 
 <% else %>
