@@ -1,6 +1,6 @@
 <%- model_class = Movie -%>
 
-<div class="container" style="margin-top: 100px;">
+<div class="container">
   <div class="album text-muted">
 
     <div class="top-panel">
@@ -35,7 +35,7 @@
           <img src="<%= movie.image %>" height="500px" width="330px" alt="poster">
           <figcaption>
                 <span class="movie-title"><%= link_to movie_path(movie) do %><%= movie.title %><%- end -%></span>
-                <%= rating_for movie, 'rating', enable_half: true %>
+                <div class="rate_main"><%= rating_for movie, 'rating', enable_half: true %></div>
           </figcaption>
           </figure>
         </div>
