@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Director.destroy_all
+Movie.destroy_all
 
 File.open("db/directors.txt", "r") do |f|
   f.each_line do |line|
@@ -22,9 +23,6 @@ File.open("db/types.txt", "r") do |f|
     Type.create!(:id => id, :name => type)
   end
 end
-
-
-Movie.destroy_all
 
 File.open("db/movies.txt", "r") do |f|
   f.each_line do |line|
