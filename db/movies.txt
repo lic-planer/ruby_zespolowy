@@ -1,20 +1,20 @@
-Deadpool;USA;2016;https://images-na.ssl-images-amazon.com/images/M/MV5BMjQyODg5Njc4N15BMl5BanBnXkFtZTgwMzExMjE3NzE@._V1_SY1000_SX686_AL_.jpg;1;1;https://www.youtube.com/watch?v=FyKWUTwSYAs&t=71s&has_verified=1
-Piękna i Bestia;USA;2017;https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwNjUxMTM4NV5BMl5BanBnXkFtZTgwODExMDQzMTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg;2;14;https://www.youtube.com/watch?v=OvW_L8sTu5E
-Harry Potter i Kamień Filozoficzny;USA;2001;https://images-na.ssl-images-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg;3;7;https://www.youtube.com/watch?v=VyHV0BRtdxo
-Harry Potter i Komnata Tajemnic;USA;2002;https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxODgwMDkxNV5BMl5BanBnXkFtZTYwMDk2MDg3._V1_.jpg;3;7;https://www.youtube.com/watch?v=1bq0qff4iF8&t=12s
-Wolverine;USA;2013;https://images-na.ssl-images-amazon.com/images/M/MV5BNzg1MDQxMTQ2OF5BMl5BanBnXkFtZTcwMTk3MjAzOQ@@._V1_SX674_CR0,0,674,999_AL_.jpg;4;1;https://www.youtube.com/watch?v=toLpchTUYk8
-Jak zostać królem;Australia;2010;https://images-na.ssl-images-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SY1000_CR0,0,684,1000_AL_.jpg;5;3;https://www.youtube.com/watch?v=pzI4D6dyp_o
-Dziennik Bridget Jones;Wielka Brytania;2001;https://images-na.ssl-images-amazon.com/images/M/MV5BYjc3NjU1ZTEtNmNjNi00YzNiLWI3OWQtMTJmYTRkZDc1NDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,675,1000_AL_.jpg;6;11;https://www.youtube.com/watch?v=PYPK3jPZkYI
-Skyfall;Wielka Brytania;2012;https://images-na.ssl-images-amazon.com/images/M/MV5BNDVhZmJiYWMtNmIzMC00ZWNiLTkzZDYtNGNlZmViMGM4OGExXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_CR0,0,674,1000_AL_.jpg;7;1;https://www.youtube.com/watch?v=6kw1UVovByw
-To właśnie miłość;Wielka Brytania;2003;https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_.jpg;8;11;https://www.youtube.com/watch?v=fOS-HMiVejo
-Kac Vegas;Niemcy;2009;https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1MDA1MTYwMF5BMl5BanBnXkFtZTcwMDcxMzA1Mg@@._V1_.jpg;9;10;https://www.youtube.com/watch?v=tcdUhdOlz9M
-Podziemny krąg;Niemcy;1999;https://images-na.ssl-images-amazon.com/images/M/MV5BZGY5Y2RjMmItNDg5Yy00NjUwLThjMTEtNDc2OGUzNTBiYmM1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg;10;19;https://www.youtube.com/watch?v=BdJKm16Co6M
-Bękarty wojny;Niemcy;2009;https://images-na.ssl-images-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SY1000_SX675_AL_.jpg;11;21;https://www.youtube.com/watch?v=KnrRy6kSFF0
-Seksmisja;Polska;1983;http://1.fwcdn.pl/po/11/63/1163/7737422.3.jpg;12;10;https://www.youtube.com/watch?v=IHVaF-7iXM4
-Dzień świra;Polska;2002;http://1.fwcdn.pl/po/14/13/31413/6900422.3.jpg;13;5;https://www.youtube.com/watch?v=XJIuMmrJ5fk
-Kiler;Polska;1997;http://1.fwcdn.pl/po/05/29/529/6900785.3.jpg;12;10;https://www.youtube.com/watch?v=0QsgQgT0O5E
-Kiler-ów 2-óch;Polska;1999;http://1.fwcdn.pl/po/00/80/80/6900998.3.jpg;12;10;https://www.youtube.com/watch?v=mNJK5DMyZqY
-Chłopaki nie płaczą;Polska;2000;http://1.fwcdn.pl/po/08/43/843/6901032.3.jpg;14;10;https://www.youtube.com/watch?v=0Pl_vhON4A4
-Sami swoi;Polska;1967;http://static.dvdmax.pl/sami-swoi-trylogia-sami-swoi--nie-ma-mocnych--kochaj-albo-rzuc-kanon-filmow-polskich-komedie-booklet-3dvd_midi_92876_0004.jpg;15;10;https://www.youtube.com/watch?v=XBIjdyPYmb4
-Jestem legendą;Australia;2007;https://images-na.ssl-images-amazon.com/images/M/MV5BYTE1ZTBlYzgtNmMyNS00ZTQ2LWE4NjEtZjUxNDJkNTg2MzlhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_SX675_AL_.jpg;16;17;https://www.youtube.com/watch?v=dtKMEAXyPkg
-Piła;Australia;2004;https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4MDYzNDE1OV5BMl5BanBnXkFtZTcwNDY2OTYwNA@@._V1_SY1000_SX675_AL_.jpg;17;9;https://www.youtube.com/watch?v=S-1QgOMQ-ls
+Deadpool;USA;2016;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495394012/deadpool_bq5eji.jpg;1;1;https://www.youtube.com/watch?v=FyKWUTwSYAs&t=71s&has_verified=1
+Piękna i Bestia;USA;2017;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495395924/pieknaibestia_y3lusz.jpg;2;14;https://www.youtube.com/watch?v=OvW_L8sTu5E
+Harry Potter i Kamień Filozoficzny;USA;2001;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495395963/harrypotterKamien_llxget.jpg;3;7;https://www.youtube.com/watch?v=VyHV0BRtdxo
+Harry Potter i Komnata Tajemnic;USA;2002;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495395999/harrypotterKomnata_tpdv6e.jpg;3;7;https://www.youtube.com/watch?v=1bq0qff4iF8&t=12s
+Wolverine;USA;2013;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396076/wolverine_h6pxs5.jpg;4;1;https://www.youtube.com/watch?v=toLpchTUYk8
+Jak zostać królem;Australia;2010;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396112/jakzostackrolem_ppedao.jpg;5;3;https://www.youtube.com/watch?v=pzI4D6dyp_o
+Dziennik Bridget Jones;Wielka Brytania;2001;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396164/dziennikBridget_i1oywe.jpg;6;11;https://www.youtube.com/watch?v=PYPK3jPZkYI
+Skyfall;Wielka Brytania;2012;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396194/skyfall_vu3okj.jpg;7;1;https://www.youtube.com/watch?v=6kw1UVovByw
+To właśnie miłość;Wielka Brytania;2003;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396224/loveActually_qcivrq.jpg;8;11;https://www.youtube.com/watch?v=fOS-HMiVejo
+Kac Vegas;Niemcy;2009;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396249/kacVegas_pfxpvo.jpg;9;10;https://www.youtube.com/watch?v=tcdUhdOlz9M
+Podziemny krąg;Niemcy;1999;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396281/podziemnyKrag_ynkjld.jpg;10;19;https://www.youtube.com/watch?v=BdJKm16Co6M
+Bękarty wojny;Niemcy;2009;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396315/bekartyWojny_wrcbym.jpg;11;21;https://www.youtube.com/watch?v=KnrRy6kSFF0
+Seksmisja;Polska;1983;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396339/seksmisja_qz2vrh.jpg;12;10;https://www.youtube.com/watch?v=IHVaF-7iXM4
+Dzień świra;Polska;2002;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396365/dzienswira_bw6sow.jpg;13;5;https://www.youtube.com/watch?v=XJIuMmrJ5fk
+Kiler;Polska;1997;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396388/kiler_vrargc.jpg;12;10;https://www.youtube.com/watch?v=0QsgQgT0O5E
+Kiler-ów 2-óch;Polska;1999;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396413/kiler2_yn1rns.jpg;12;10;https://www.youtube.com/watch?v=mNJK5DMyZqY
+Chłopaki nie płaczą;Polska;2000;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396444/chlopakinieplacza_xqtu4q.jpg;14;10;https://www.youtube.com/watch?v=0Pl_vhON4A4
+Sami swoi;Polska;1967;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396483/samiswoi_mvnlou.jpg;15;10;https://www.youtube.com/watch?v=XBIjdyPYmb4
+Jestem legendą;Australia;2007;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396514/jestemLegenda_izh4yl.jpg;16;17;https://www.youtube.com/watch?v=dtKMEAXyPkg
+Piła;Australia;2004;http://res.cloudinary.com/dgqbv7rnu/image/upload/v1495396540/pi%C5%82a_htk4pr.jpg;17;9;https://www.youtube.com/watch?v=S-1QgOMQ-ls

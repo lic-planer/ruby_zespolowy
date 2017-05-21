@@ -33,6 +33,6 @@ File.open("db/movies.txt", "r") do |f|
     #@type = Type.find(params[:name => type])
     #Movie.create!(:title => title, :country => country, :year => year, :image => image, :director_id => @director.id, :type_id => @type.id)
     title, country, year, image, director_id, type_id, trailer = line.chomp.split(";")
-    Movie.create!(:title => title, :country => country, :year => year, :image => image, :director_id => director_id, :type_id => type_id, :trailer => trailer)
+    Movie.create!(:title => title, :country => country, :year => year, :remote_image_url => image, :director_id => director_id, :type_id => type_id, :trailer => trailer)
   end
 end
